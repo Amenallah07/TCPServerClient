@@ -1,7 +1,7 @@
 # Multi-Client TCP Server
 
 A high-performance C++ TCP server that handles multiple clients simultaneously using a thread-per-client architecture. 
-The server implements both the Singleton design patterns.
+The server implements the Singleton design patterns.
 
 ## Features
 
@@ -25,7 +25,7 @@ The server implements both the Singleton design patterns.
 To compile the server, run:
 
 ```bash
-g++ -o server test.cpp -std=c++17 -pthread
+g++ -o server server.cpp -std=c++17 -pthread
 ```
 
 ## Running
